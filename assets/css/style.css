@@ -2,7 +2,7 @@
  * style.css
 \*-----------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 /**
  * copyright 2022 codewithsadee
@@ -30,9 +30,9 @@ body {
     /**
    * typography
    */
-    --ff-saira-stencil-one: "Raleway", sans-serif;
-    --ff-poppins: 'Raleway', sans-serif;
-    --ff-roboto: 'Raleway', sans-serif;
+    --ff-saira-stencil-one: "Josefin Sans", sans-serif;
+    --ff-poppins: 'Josefin Sans', sans-serif;
+    --ff-roboto: 'Josefin Sans', sans-serif;
     --fs-1: 2rem;
     --fs-2: calc(1.813rem + 1vw);
     --fs-3: calc(1.313rem + 1vw);
@@ -1760,7 +1760,6 @@ textarea.input-field {
     letter-spacing: 3px;
     font-size: 2em;
     font-family: "Arial";
-    text-transform: uppercase;
     color: transparent;
     -webkit-text-stroke: 1px var(--color-primary);
     cursor: pointer;
@@ -1782,7 +1781,7 @@ textarea.input-field {
     border-bottom: 2px solid transparent;
 }
 
-.button:hover .front-text {
+.front-text {
     width: 100%;
     border-bottom: 2px solid #03a9f4;
     -webkit-text-stroke: 1px var(--ani-color);
