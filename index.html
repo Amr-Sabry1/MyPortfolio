@@ -15,11 +15,13 @@
     <!-- 
     - custom css link
   -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- 
     - google font link
   -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap" rel="stylesheet">
@@ -163,7 +165,7 @@
         - #HERO
       -->
 
-            <section class="hero" id="home">
+            <section class="hero" id="home" data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
 
                 <figure class="hero-banner">
 
@@ -244,7 +246,7 @@
             <section class="stats" id="stats">
                 <ul class="stats-list">
 
-                    <li>
+                    <li data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
                         <a href="#" class="stats-card">
 
                             <div class="card-icon">
@@ -260,7 +262,7 @@
                         </a>
                     </li>
 
-                    <li>
+                    <li data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-in-sine">
                         <a href="#" class="stats-card">
 
                             <div class="card-icon">
@@ -276,7 +278,7 @@
                         </a>
                     </li>
 
-                    <li>
+                    <li data-aos="fade-left" data-aos-offset="400" data-aos-easing="ease-in-sine">
                         <a href="#" class="stats-card">
 
                             <div class="card-icon">
@@ -304,7 +306,7 @@
       -->
 
             <section class="about" id="about">
-                <div class="container">
+                <div class="container" data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
                     <picture>
 
                         <!-- <div class="circ">
@@ -317,7 +319,9 @@
 
                     </figure>
                 </div>
-                <div class="about-content section-content">
+
+
+                <div class="about-content section-content" data-aos="fade-left" data-aos-offset="400" data-aos-easing="ease-in-sine">
 
                     <p class="section-subtitle">About me</p>
 
@@ -371,7 +375,7 @@
 
             <section class="skills" id="skills">
 
-                <div class="skills-content section-content">
+                <div class="skills-content section-content" data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
 
                     <p class="section-subtitle">My skills</p>
 
@@ -389,7 +393,7 @@
 
                 </div>
 
-                <div class="skills-box" data-skills-box>
+                <div class="skills-box" data-skills-box data-aos="fade-left" data-aos-offset="350" data-aos-easing="ease-in-sine">
 
                     <ul class="skills-list">
 
@@ -571,7 +575,7 @@
         - #PROJECTS
       -->
 
-            <section class="project" id="portfolio">
+            <section class="project" id="portfolio" data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
 
                 <ul class="project-list">
 
@@ -757,16 +761,16 @@
 
 
             <section class="about" id="Certificates">
-                <div class="container">
+                <div class="container" data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
                     <picture>
 
 
                         <img src="./assets/images/images/2023-05-31 (2).png" alt="A man in a blue shirt with a happy expression" class="w-100">
                     </picture>
 
-                    </figure>
                 </div>
-                <div class="about-content section-content">
+
+                <div class="about-content section-content" data-aos="fade-left" data-aos-offset="400" data-aos-easing="ease-in-sine">
 
                     <p class="section-subtitle">My Certificates</p>
 
@@ -788,7 +792,7 @@
 
             <section class="contact" id="contact">
 
-                <div class="contact-content section-content">
+                <div class="contact-content section-content" data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
 
                     <p class="section-subtitle">Contact</p>
 
@@ -897,7 +901,7 @@
 
                 </div>
 
-                <form action="" class="contact-form">
+                <form action="" class="contact-form" data-aos="fade-left" data-aos-offset="400" data-aos-easing="ease-in-sine">
 
                     <div class="form-wrapper">
 
@@ -1005,13 +1009,7 @@
 
 
 
-    <!-- 
-    - #GO TO TOP
-  -->
 
-    <a href="#top" class="go-top" data-go-top title="Go to Top">
-        <ion-icon name="arrow-up"></ion-icon>
-    </a>
 
 
 
@@ -1029,9 +1027,12 @@
   -->
     </div>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
