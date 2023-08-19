@@ -384,7 +384,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 115px;
+    padding-top: 50px;
     margin-bottom: var(--section-padding);
 }
 
@@ -1008,11 +1008,18 @@ textarea.input-field {
     background: var(--bg-secondary);
     padding-block: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: var(--shadow-1);
 }
 
 .footer .logo {
     margin-bottom: 15px;
+}
+
+.footer button {
+    margin-left: 20px;
 }
 
 .copyright {
@@ -1027,43 +1034,17 @@ textarea.input-field {
 
 
 /*-----------------------------------*\
- * #GO TO TOP
+ * #scrollbar
 \*-----------------------------------*/
 
-.go-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    width: 45px;
-    height: 45px;
-    display: grid;
-    place-items: center;
-    font-size: 20px;
-    color: var(--color-primary);
-    border: 2px solid var(--color-primary);
-    border-radius: 50%;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(10px);
-    transition: var(--transition-1);
-    z-index: 2;
-}
-
-.go-top.active {
-    opacity: 1;
-    pointer-events: all;
-    transform: translateY(0);
+::-webkit-scrollbar {
+    width: 0px;
 }
 
 
 /*-----------------------------------*\
  * #MEDIA QUERIES
 \*-----------------------------------*/
-
-
-/**
- * responsive for larger than 550px screen
- */
 
 @media (min-width: 550px) {
     /**
