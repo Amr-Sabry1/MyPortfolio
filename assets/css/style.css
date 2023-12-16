@@ -760,15 +760,6 @@ main {
     transform: translateY(-9px);
 }
 
-.card-icon img {
-    width: 70px !important;
-    height: 70px !important;
-}
-
-.mongo img {
-    height: 40px !important;
-}
-
 
 /*-----------------------------------*\
  * #PROJECT
