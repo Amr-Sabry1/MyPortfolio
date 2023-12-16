@@ -760,6 +760,21 @@ main {
     transform: translateY(-9px);
 }
 
+.card-icon .next {
+    width: 70px;
+    height: 70px;
+}
+
+.card-icon .node {
+    width: 70px;
+    height: 70px;
+}
+
+.card-icon .mongo {
+    width: 70px;
+    height: 35px;
+}
+
 
 /*-----------------------------------*\
  * #PROJECT
